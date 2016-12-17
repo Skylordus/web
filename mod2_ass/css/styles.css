@@ -66,6 +66,9 @@ p {
 	section {
 	 	width: 46%;
 	}
+	section:nth-child(3) {
+	 	width: 96%;
+	}
 }
 
 @media (max-width: 767px) {
