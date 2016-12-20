@@ -12,10 +12,10 @@ body {
 }
 
 #logo-img {
-	background: url('../images/logo-large.png') no-repeat;
-	background-size: 100px 100px;
+	background: url('../images/logo.png') no-repeat;
+	background-size: 150px 100px;
 	height: 100px;
-	width: 100px;
+	width: 150px;
 	margin: 10px 15px 10px 0; 
 }
 
