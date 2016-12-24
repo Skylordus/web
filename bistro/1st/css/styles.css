@@ -8,7 +8,13 @@ body {
 #header-nav {
 	background-color: #f6b319;
 	border-radius: 0;
-	border: 0;
+	border: 0;	 
+}
+
+#header-nav .container {	 
+	margin-left: 0px;
+	margin-right: 0px; 
+	width: 100%;
 }
 
 #logo-img {
@@ -79,3 +85,62 @@ body {
  	color: #557c3e;
  	text-align: right;
  }
+
+ @media (max-width: 767px) {
+ 	.navbar-header {
+ 		padding-top: 0px;
+ 		margin-top: 0px;
+ 		clear: both;
+ 	}
+
+ 	.navbar-brand h1 {
+ 		margin-top: 0px;
+ 		padding-top: 0px;
+ 		font-size: 5vw; 		 
+ 	}
+ 	.navbar-brand p {
+ 		padding-top: 0px;
+ 		margin-top: 5px; 
+ 		margin-bottom: 10px;	
+
+ 	}
+ 	.navbar-brand img {
+ 		margin-bottom: 10px;
+ 		height: 40px; 		 
+ 	}
+ 	button.navbar-toggle {
+ 		clear: both;
+
+ 	}
+ }
+
+  @media (min-width: 768px) and (max-width: 991px){
+  	 .navbar-brand h1 {
+ 		margin-top: 0px;
+ 		padding-top: 0px;
+ 		font-size: 1.3em;
+ 	}
+ 	.navbar-brand p {
+ 		padding-top: 0px;
+ 		margin-top: 5px; 
+ 		margin-bottom: 10px;		 
+ 	}
+  }
+
+
+  @media (min-width: 992px) and (max-width: 1199px){
+  	 .navbar-brand h1 {
+ 		margin-top: 0px;
+ 		padding-top: 0px;
+ 		font-size: 1.3em;
+ 	}
+ 	.navbar-brand p {
+ 		padding-top: 0px;
+ 		margin-top: 5px; 
+ 		margin-bottom: 10px;		 
+ 	}
+ 
+  }
+
+
+ 
